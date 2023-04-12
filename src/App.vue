@@ -30,14 +30,13 @@
 
 <script>
 import axios from 'axios';
-import dotenv from 'dotenv';
 
 export default {
   data() {
     return {
       track: null,
-      apiKey: process.env.VUE_APP_LASTFM_API_KEY,
-      username: process.env.VUE_APP_LASTFM_USERNAME,
+      apiKey: import.meta.env.VITE_APP_LASTFM_API_KEY,
+      username: import.meta.env.VITE_APP_LASTFM_USERNAME,
     };
   },
   mounted() {
