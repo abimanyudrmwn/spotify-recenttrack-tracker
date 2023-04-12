@@ -35,8 +35,8 @@ export default {
   data() {
     return {
       track: null,
-      apiKey: '8c060f3de34eafed794903a84e501997',
-      username: 'abimanyudrmwn',
+      apiKey: process.env.VUE_APP_LASTFM_API_KEY,
+      username: process.env.VUE_APP_LASTFM_USERNAME,
     };
   },
   mounted() {

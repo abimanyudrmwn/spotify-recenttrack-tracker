@@ -1,3 +1,4 @@
+
 # Spotify Recent Played Tracker App
 
 This is a simple web application that tracks your recently played songs on Spotify using Vue.js framework and Last.fm API.
@@ -19,10 +20,14 @@ To run this application locally:
 
 1.  Clone this repository
 2.  Install dependencies:
-      
-`npm install` 
+        
+    `npm install` 
     
-3.  Change `apiKey`and `username` to yours.
+3.  Create a `.env` file in the root directory of the project and add your Spotify client ID and Last.fm API key:
+`VUE_APP_LASTFM_API_KEY=YOURAPIKEY`
+`VUE_APP_LASTFM_USERNAME=USERNAME`
+    
+    
 4.  Start the development server:
-
-`npm run serve`
+    
+    `npm run serve`
