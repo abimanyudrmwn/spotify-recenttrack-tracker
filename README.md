@@ -1,7 +1,28 @@
-# Vue 3 + Vite
+# Spotify Recent Played Tracker App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a simple web application that tracks your recently played songs on Spotify using Vue.js framework and Last.fm API.
 
-## Recommended IDE Setup
+## Features
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+-   Displays the user's recently played tracks on Spotify.
+-   Displays additional information about the track including the album cover, artist name, and track name.
+
+## Technologies Used
+
+-   Vue.js
+-   Last.fm API
+-   Spotify Web API
+
+## Setup
+
+To run this application locally:
+
+1.  Clone this repository
+2.  Install dependencies:
+      
+`npm install` 
+    
+3.  Change `apiKey`and `username` to yours.
+4.  Start the development server:
+
+`npm run serve`
